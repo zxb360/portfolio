@@ -1,3 +1,4 @@
+import GeradorSenha from '../geradorSenha/GeradorSenha'
 import './HomeMain.css'
 
 function MainHome() {
@@ -5,7 +6,7 @@ function MainHome() {
     <>
         <img src="../../public/fotoJaeder.png" alt="foto de Jaeder" />
         <header>
-          <strong>Jaeder de Carvalho Azevedo</strong>
+          <h1>Jaeder de Carvalho Azevedo</h1>
           <p>Formação: Analista e Desenvolvedor Sistema</p>
           <p>Curso de especialização: Trybe</p>
           <p>Develop: FrontEnd, BackEnd and mid data science</p>
@@ -13,35 +14,35 @@ function MainHome() {
         </header>
         <section>
           <div>
-            <h3>2017</h3>
-            <h2>Conhecendo a programação</h2>
-            <p>Sempre tive muita vontade de conhecer os estudos em programção
-              e o curso em video foi quem iniciou minha a minha jornada de curiosidade,
-              assistindo seus videos com tempo que tinha consegue identificar a área de gostaria de caminhar
-            </p>
-          </div>
-          <div>
             <h3>2018 a 2021</h3>
-            <h2>Faculdade em Analise e Desenvolvimento de Sistemas</h2>
-            <h4>Estácio Fib</h4>
+            <h2>Analise e Desenvolvimento de Sistemas</h2>
+            <h4>Faculdade Estácio Fib Sá Campus Gilberto Gil</h4>
+            <h3>Formação graduação superior tecnólogo 'Concluído'</h3>
             <p>
-              Depois que finalizei minha formação no ensino médio fique sem estudar praticamente 18 anos,
-              somente em 2018 consegue voltar a estudar para uma jornada de apredizado no mundo da programação.
-              Conheci teorias, fundamentos de estrutura de dados, lógica programação I e II, web sites, gestão de Empreendedorismo
-              e trabalho de Conclusão projeto final.
+            Em 2018, comecei minha jornada de aprendizado no mundo da programação. Ao longo desse tempo, explorei teorias e fundamentos de estrutura de dados, lógica de programação I e II, desenvolvimento de websites, gestão e empreendedorismo, redes de computadores, além de ter concluído o projeto final. Participei também de uma oficina de manutenção de computadores, ministrada pelo coordenador do curso, como banco de horas. 
             </p>
           </div>
           <div>
             <h3>2021</h3>
-            <p>Curso de pós graduação</p>
+            <h2>Data Science</h2>
+            <h4>Faculdade Multivix</h4>
+            <h3>Pós-graduação 'Tracado'</h3>
+            <p>Em 2021, iniciei a pós em Data Science. Durante esse período, explorei técnicas de análise de dados, machine learning e visão computacional, ruídos dados... pausei o curso por falta de fundos de investimentos.
+            </p>
           </div>
           <div>
-            <h3>2022</h3>
-            <p>Curso na trybe</p>
+            <h3>2022 a 2023</h3>
+            <h2>Desenvolvedor Web Full-Stack</h2>
+            <h4>Trybe</h4>
+            <h3>Curso de especialização 'Concluido'</h3>
+            <p>Em 2022, ainda não tinha conquistado meu primeiro emprego e senti que não conhecia o suficiente então começei a especialização em desenvolvimento web full-stack e data science. Durante esse período, explorei tecnologias como React, Node.js, TypeScript, PostgreSQL, MySQL, Python, Docker além das softskills. Aprendi muito na Trybe, devo o conhecimento que tenho. Atualmente, estou estudando e aprimorando minhas habilidades em desenvolvimento web.</p>
           </div>
         </section>
-        <h2>Projetos</h2>
-        <h1>secao de projetos e exercicios</h1>
+        <h2>PROJETOS:</h2>
+        <h3>seção de alguns projetos e exercicios feito por minha pessoa:</h3>
+        <section>
+          <GeradorSenha />
+        </section>
         <footer>
           <p>links das redes sociais imagens redondas com logo redirecionando ao meu perfil</p>
         </footer>
