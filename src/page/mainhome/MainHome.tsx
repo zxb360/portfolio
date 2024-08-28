@@ -39,7 +39,7 @@ function MainHome() {
           </div>
         </section>
         <h2>PROJETOS:</h2>
-        <h3>seção de alguns projetos e exercicios feito por minha pessoa:</h3>
+        <h3>seção de alguns projetos e exercicios feito por minha pessoa::</h3>
         <section className='geradorDeSenha'>
           <GeradorSenha />
         </section>
