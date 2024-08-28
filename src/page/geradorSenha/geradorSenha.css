@@ -1,0 +1,40 @@
+.h1Senha {
+    font-size: 40pt;
+    margin: auto;
+}
+
+.labelSenha {
+    font-size: 25pt;
+}
+
+.inputSenha::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.textoSenha {
+    margin: auto;
+    width: 70%;
+    padding: 3%;
+    color: #fff;
+}
+
+.buttonSenha {
+    border-radius: 10%;
+    font-size: 20pt;
+    width: 12%;
+    margin: 5%;
+    padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 10px #999;
+}
+
+.buttonSenha:hover {
+    background-color: #39c739;
+    color: white;
+}
+
+.buttonSenha:active {
+    background-color: red;
+    box-shadow: 0 3px #666;
+    transform: translateY(6px);
+}
