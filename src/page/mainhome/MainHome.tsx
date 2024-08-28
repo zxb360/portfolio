@@ -40,7 +40,7 @@ function MainHome() {
         </section>
         <h2>PROJETOS:</h2>
         <h3>seção de alguns projetos e exercicios feito por minha pessoa:</h3>
-        <section>
+        <section className='geradorDeSenha'>
           <GeradorSenha />
         </section>
         <footer>
